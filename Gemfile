@@ -9,7 +9,7 @@ gem 'sinatra-contrib'
 gem 'thin'
 
 gem 'activesupport', "~>4.2"
-gem 'activerecord', "~>4.2"
+gem 'activerecord', '~> 5.2', '>= 5.2.8.1'
 
 gem 'rake'
 gem 'bcrypt'
