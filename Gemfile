@@ -4,14 +4,14 @@ source 'https://rubygems.org'
 gem 'pg'
 
 # Sinatra driver
-gem 'sinatra', '~> 1.0'
-gem 'sinatra-contrib'
-gem 'thin'
+gem 'sinatra', '~> 2.2', '>= 2.2.3'
+gem 'sinatra-contrib', '>= 2.2.3'
+gem 'thin', '>= 1.7.0'
 
-gem 'activesupport', "~>4.2"
-gem 'activerecord', "~>4.2"
+gem 'activesupport', '~> 6.1', '>= 6.1.7.3'
+gem 'activerecord', '~> 6.1', '>= 6.1.7.3'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'bcrypt'
 
 gem 'pry'
